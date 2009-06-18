@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" initialize="onInit()" xmlns:ns1="bridge.*" backgroundColor="#FBF9F9" width="503" height="267">
+<mx:Script>
+	<![CDATA[
+		import mx.collections.ArrayCollection;
+	
+		[Bindable]
+		private var _logMessages:ArrayCollection = new ArrayCollection();
+		
+		private function onInit():void {
+			Security.allowDomain("*");
+			ExternalInterface.addCallback("actionScriptFunction", actionScriptFunction);
+			callJavaScriptFunction();
+		}
+		
+		private function callJavaScriptFunction():void {
+			ExternalInterface.call("logCurrentTimeFromAS3");
+			setTimeout(callJavaScriptFunction, 5000);
+		}
+		
+		public function log(msg:String):void {
+			_logMessages.addItem({message: msg});
+			logGrid.verticalScrollPosition = logGrid.maxVerticalScrollPosition;
+		}
+		
+		public function actionScriptFunction(obj:*):void {
+			log(obj.toString());
+		}
+	]]>
+</mx:Script>
+	<ns1:FABridge/>
+	<mx:DataGrid id="logGrid" dataProvider="{_logMessages}" verticalScrollPolicy="on" width="501" height="265" y="0" x="0">
+		<mx:columns>
+			<mx:DataGridColumn headerText="Message" dataField="message"/>
+		</mx:columns>
+	</mx:DataGrid>
+	
+</mx:Application>
