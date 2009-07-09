@@ -1,0 +1,39 @@
+Wed Jun 17 19:50:33 EDT 2009  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Wed Jun 17 19:50:33 EDT 2009   [info] ************************************************************** 
+Wed Jun 17 19:50:33 EDT 2009   [info] Starting Jakarta Velocity v1.4
+Wed Jun 17 19:50:33 EDT 2009   [info] RuntimeInstance initializing.
+Wed Jun 17 19:50:33 EDT 2009   [info] Default Properties File: org/apache/velocity/runtime/defaults/velocity.properties
+Wed Jun 17 19:50:33 EDT 2009   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Wed Jun 17 19:50:33 EDT 2009   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Wed Jun 17 19:50:33 EDT 2009   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Wed Jun 17 19:50:33 EDT 2009   [info] Resource Loader Instantiated: com.adobe.flexbuilder.tengine.AbsoluteFileResourceLoader
+Wed Jun 17 19:50:33 EDT 2009   [info] FileResourceLoader : initialization complete.
+Wed Jun 17 19:50:33 EDT 2009   [info] Resource Loader Instantiated: com.adobe.flexbuilder.tengine.StringResourceLoader
+Wed Jun 17 19:50:33 EDT 2009   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Wed Jun 17 19:50:33 EDT 2009   [info] Default ResourceManager initialization complete.
+Wed Jun 17 19:50:33 EDT 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Wed Jun 17 19:50:33 EDT 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Wed Jun 17 19:50:33 EDT 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Wed Jun 17 19:50:33 EDT 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Wed Jun 17 19:50:33 EDT 2009   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Wed Jun 17 19:50:33 EDT 2009   [info] Created: 20 parsers.
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : initialization starting.
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : adding VMs from VM library template : /Applications/Adobe Flex Builder 3/plugins/com.adobe.flexbuilder.tengine_3.0.194161/templates/macros/basic.vm
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : added new VM : #basicListArgs( arguments ) : source = /Applications/Adobe Flex Builder 3/plugins/com.adobe.flexbuilder.tengine_3.0.194161/templates/macros/basic.vm
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : added new VM : #showIfNotEmpty( value string ) : source = /Applications/Adobe Flex Builder 3/plugins/com.adobe.flexbuilder.tengine_3.0.194161/templates/macros/basic.vm
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : added new VM : #dotPackage( value ) : source = /Applications/Adobe Flex Builder 3/plugins/com.adobe.flexbuilder.tengine_3.0.194161/templates/macros/basic.vm
+Wed Jun 17 19:50:33 EDT 2009   [info] ResourceManager : found /Applications/Adobe Flex Builder 3/plugins/com.adobe.flexbuilder.tengine_3.0.194161/templates/macros/basic.vm with loader com.adobe.flexbuilder.tengine.AbsoluteFileResourceLoader
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro :  VM library template macro registration complete.
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : messages on  : VM system will output logging messages
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocimacro : initialization complete.
+Wed Jun 17 19:50:33 EDT 2009   [info] Velocity successfully started.
+Wed Jun 17 19:50:33 EDT 2009   [info] ResourceManager : found /Users/brianpfeil/Documents/Flex Builder 3/configuration/org.eclipse.osgi/bundles/7/1/.cp/templates/gen_fld/folderProps.properties with loader com.adobe.flexbuilder.tengine.AbsoluteFileResourceLoader
+Wed Jun 17 19:50:33 EDT 2009   [info] ResourceManager : found /Users/brianpfeil/Documents/Flex Builder 3/configuration/org.eclipse.osgi/bundles/7/1/.cp/templates/gen_fld/bridge.vm with loader com.adobe.flexbuilder.tengine.AbsoluteFileResourceLoader
+Wed Jun 17 19:50:33 EDT 2009   [info] ResourceManager : found /Users/brianpfeil/Documents/Flex Builder 3/configuration/org.eclipse.osgi/bundles/7/1/.cp/templates/gen_fld/export.vm with loader com.adobe.flexbuilder.tengine.AbsoluteFileResourceLoader
+Wed Jun 17 19:50:33 EDT 2009   [info] ResourceManager : found /Users/brianpfeil/Documents/Flex Builder 3/configuration/org.eclipse.osgi/bundles/7/1/.cp/templates/gen_fld/wrapper.vm with loader com.adobe.flexbuilder.tengine.AbsoluteFileResourceLoader
+Wed Jun 17 19:50:33 EDT 2009   [info] ResourceManager : found /Users/brianpfeil/Documents/Flex Builder 3/configuration/org.eclipse.osgi/bundles/7/1/.cp/templates/main_src/folderProps.properties with loader com.adobe.flexbuilder.tengine.AbsoluteFileResourceLoader
+Wed Jun 17 19:50:33 EDT 2009   [info] ResourceManager : found /Users/brianpfeil/Documents/Flex Builder 3/configuration/org.eclipse.osgi/bundles/7/1/.cp/templates/main_src/bridge.vm with loader com.adobe.flexbuilder.tengine.AbsoluteFileResourceLoader
